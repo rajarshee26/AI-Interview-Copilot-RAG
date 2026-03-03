@@ -4,7 +4,7 @@ An intelligent AI Interview Copilot built using Retrieval-Augmented Generation (
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This system simulates a technical interview session by:
 
@@ -15,7 +15,7 @@ This system simulates a technical interview session by:
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 User Query
 ↓
@@ -33,7 +33,7 @@ Final Performance Report
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - Python
 - SentenceTransformers
@@ -44,7 +44,7 @@ Final Performance Report
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 Each answer is evaluated across:
 
@@ -56,7 +56,7 @@ Evaluation is grounded using expected key answer points from the dataset.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Synthetic structured dataset containing:
 
@@ -68,7 +68,7 @@ Synthetic structured dataset containing:
 
 ---
 
-## ⚙️ Future Improvements
+##  Future Improvements
 
 - Use larger instruction-tuned models (e.g., Mistral-7B)
 - Hybrid retrieval (BM25 + dense vectors)
@@ -78,6 +78,6 @@ Synthetic structured dataset containing:
 
 ---
 
-## 📌 Why RAG?
+##  Why RAG?
 
 Instead of relying solely on pretrained LLM knowledge, this system grounds generation using a curated interview question dataset, improving relevance and reducing hallucination.
