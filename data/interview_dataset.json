@@ -1,0 +1,69 @@
+[
+    {
+        "skill": "Machine Learning",
+        "topic": "Overfitting",
+        "difficulty": "Medium",
+        "question": "What is overfitting in machine learning and how can you prevent it?",
+        "expected_points": [
+            "Model memorizes training data",
+            "High variance",
+            "Cross-validation",
+            "Regularization",
+            "Dropout or pruning"
+        ],
+        "follow_up": "Explain bias-variance tradeoff."
+    },
+    {
+        "skill": "Machine Learning",
+        "topic": "Linear Regression",
+        "difficulty": "Easy",
+        "question": "What assumptions does linear regression make?",
+        "expected_points": [
+            "Linearity",
+            "Independence",
+            "Homoscedasticity",
+            "Normality of errors"
+        ],
+        "follow_up": "What happens if assumptions are violated?"
+    },
+    {
+        "skill": "Deep Learning",
+        "topic": "CNN",
+        "difficulty": "Medium",
+        "question": "Why are convolutional layers effective for image data?",
+        "expected_points": [
+            "Spatial feature extraction",
+            "Parameter sharing",
+            "Translation invariance",
+            "Local connectivity"
+        ],
+        "follow_up": "Explain padding and stride."
+    },
+    {
+        "skill": "Deep Learning",
+        "topic": "Vanishing Gradient",
+        "difficulty": "Hard",
+        "question": "What is the vanishing gradient problem and how is it solved?",
+        "expected_points": [
+            "Gradients shrink in deep networks",
+            "Sigmoid/tanh issue",
+            "ReLU activation",
+            "Batch normalization",
+            "Residual connections"
+        ],
+        "follow_up": "How do residual connections help?"
+    },
+    {
+        "skill": "NLP",
+        "topic": "Transformers",
+        "difficulty": "Medium",
+        "question": "What is self-attention in Transformers?",
+        "expected_points": [
+            "Captures contextual relationships",
+            "Query key value mechanism",
+            "Parallel processing",
+            "Long-range dependencies"
+        ],
+        "follow_up": "Why is attention better than RNNs?"
+    }
+]
